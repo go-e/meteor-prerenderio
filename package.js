@@ -1,8 +1,8 @@
 Package.describe({
-  name: 'dfischer:prerenderio',
+  name: 'csillag:prerenderio',
   summary: "Node wrapper for prerenderio",
-  version: "1.0.8",
-  git: "https://github.com/dfischer/meteor-prerenderio"
+  version: "1.0.10",
+  git: "https://github.com/go-e/meteor-prerenderio"
 });
 
 Npm.depends({
@@ -21,6 +21,6 @@ Package.onUse(function(api) {
 
 Package.onTest(function(api) {
   api.use('tinytest');
-  api.use('dfischer:prerenderio');
+  api.use('csillag:prerenderio');
   api.addFiles('prerenderio-tests.js');
 });
